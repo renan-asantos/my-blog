@@ -2,3 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'pt-br'
 title = 'Meu novo site \o/'
 theme = 'ananke'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
